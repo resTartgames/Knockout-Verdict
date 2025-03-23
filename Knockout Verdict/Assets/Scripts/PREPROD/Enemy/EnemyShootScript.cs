@@ -1,22 +1,20 @@
 using System.Collections;
-//using System.Collections.Generic;
-//using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class EnemyShootScript : MonoBehaviour
 {
-    public GameObject bullet;
-    public Transform gunNozzle;
+    public GameObject bullet;                                                           //  bullet gameobject ref
+    public Transform gunNozzle;                                                         //  bullet spawn position ref
 
-    public StatSystemScript enemy1Stat;
-    private bool isAttacking = false;
-    private Coroutine shootingCoroutine;
+    public StatSystemScript enemy1Stat;                                                //   enemy stats
+    private bool isAttacking = false;                                                  //   is enemy attacking player or not
+    private Coroutine shootingCoroutine;                                               //   enemy's pew pew coroutine
 
 
-    public float detectionRange = 10f;
+    public float detectionRange = 10f;                                                 // distance within which enemy scans for player
     
 
-    private Transform player;
+    private Transform player;                                                          // player position ref 
     
     void Start()
     {
