@@ -151,7 +151,6 @@ GameObject:
   - component: {fileID: 8465425660304547281}
   - component: {fileID: 2235887636592758424}
   - component: {fileID: 4378987830368672551}
-  - component: {fileID: 4395089998571019864}
   - component: {fileID: 6787085061213880869}
   - component: {fileID: 1822402056335811628}
   m_Layer: 7
@@ -357,20 +356,6 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   iFramesDuration: 0.1
   numOfFlashes: 2
---- !u!114 &4395089998571019864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3160520733353311612}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ef9a423746f4214e855134f608ecd19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerStats: {fileID: 4378987830368672551}
-  healthBar: {fileID: 0}
 --- !u!114 &6787085061213880869
 MonoBehaviour:
   m_ObjectHideFlags: 0

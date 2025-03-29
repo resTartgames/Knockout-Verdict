@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBaseStatsScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Creating player base stat variables
     [SerializeField]
     private string playerName = "Jaata Ka Chhora";
     [SerializeField]
@@ -22,6 +22,7 @@ public class PlayerBaseStatsScript : MonoBehaviour
     [SerializeField]
     private float playerBaseFiringDelay = 0.25f;
     
+    //Creating get properties to access player base stat variables
     public string getPlayerName { get { return playerName; } }
     public float getPlayerBaseMaxHealth { get { return playerBaseMaxHealth; } }
     public float getPlayerBaseAttack { get { return playerBaseAttack; } }
